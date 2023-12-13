@@ -467,3 +467,16 @@
       line-height: 36px;
     }
   }
+
+  .swiper-pagination.container-block {
+    /* Your existing styles here */
+    margin-top: -190px; /* Initial margin-top value */
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 767px) {
+    .swiper-pagination.container-block {
+        margin-top: 70px; /* Adjust the margin-top value for mobile screens */
+        margin-bottom: 70px; /* Add margin-bottom for spacing at the bottom on mobile */
+    }
+  }
