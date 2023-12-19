@@ -9,7 +9,7 @@
     --white-color: #ffffff;
     --yellow-color: #fec624;
     --success-color: #28a745;
-    --error-color: #dc3545;
+    --error-color: #14075a;
     --border-color: rgba(0, 0, 0, 0.1);
     --theme-font: "Montserrat", sans-serif;
     --theme-font2: "PT Sans", sans-serif;
@@ -7010,7 +7010,7 @@ blockquote cite:before {
     margin-top: -2px;
     font-size: 1.5em;
     font-weight: 700;
-    color: #dc3545;
+    color: black;
     font-family: var(--theme-font2);
 
     }
@@ -7052,7 +7052,7 @@ blockquote cite:before {
     width: 250px;
     height: 200px;
     border-radius: 10px;
-    animation-duration: 1s; /* Set the animation duration */
+    animation-duration: 3s; /* Set the animation duration */
 }
 
 /* Initial styles for positioning */
@@ -7060,14 +7060,14 @@ blockquote cite:before {
     position: absolute;
     top: 2px;
     right: -100px;
-    animation: slideInLeft 10s forwards; 
+    animation: slideInLeft 3s forwards; 
 }
 
 .img2 {
     position: absolute;
     bottom: 2px;
     left: -100px;
-    animation: slideInRight 10s forwards; 
+    animation: slideInRight 3s forwards; 
 }
 /* Media query for hiding images on smaller screens */
 @media (max-width: 1155px) {
@@ -7344,4 +7344,110 @@ blockquote cite:before {
 .animated-image {
     opacity: 0;
     animation: slideIn 5s forwards; 
+}
+
+.margin-10{
+    margin-top: -10%;
+}
+
+@media (max-width: 425px){
+    .margin-30{
+        margin-top: -30% !important;
+    }   
+}
+
+.margin-20{
+    margin-top: -20%;
+}
+
+/* Blog Page  */
+.blog-related-card a{
+    background-color: #D81F2A;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .d-grid {
+      display: grid;
+    }
+
+    .d-grid.justify-content-md-start {
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+  }
+
+/* Contact */
+.form-container{
+    width: 1000px!important;
+}
+.form-container p{
+    font-size: 12px;
+    color: #fff;
+}
+
+.bg-contact{
+    background-color: #e66767 !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif!important;
+
+}
+.form-control {
+    height: 36px;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.contactForm .form-control {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+}
+
+
+.form-control:focus,.form-control:active {
+    border-color: #e66767 !important;
+}
+.form-label {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.btn.btn-primary {
+    background: #e66767 !important;
+    border-color: #e66767 !important;
+    color: #fff;
+    width: 100px;
+    border-radius: 0!important;
+    
+}
+.btn.btn-primary:hover{
+    background-color: #e66767!important;
+}
+
+.bi{
+    font-size: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%!important;
+        /* padding-bottom: 207px!important;  */
+    }
+  }
+
+
+/* Blog */
+.blog-card-body{
+    margin-top: 90px;
+}
+
+/* start map  */
+.map{
+    height: 50vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #353131;
+
 }

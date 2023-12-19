@@ -1,5 +1,5 @@
 * {
-    font-family: Nunito, sans-serif;
+    /* font-family: Nunito, sans-serif;  */
   }
   
   
@@ -304,7 +304,7 @@
   }
   
   .title {
-    color: rgb(244, 152, 146);
+    color: black;
   }
   
   .swiper-pagination {
